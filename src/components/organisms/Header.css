@@ -1,0 +1,12 @@
+.header {
+  position: sticky;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  height: 46px;
+}
+
+.container {
+  max-width: 890px;
+  margin: 0 auto;
+}

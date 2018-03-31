@@ -1,17 +1,15 @@
 import * as React from 'react';
-import { Route, Link } from 'react-router-dom';
+import { Route } from 'react-router-dom';
 import './App.css';
 
 import Home from './Home';
+import Header from './organisms/Header';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <Link to="/">Home</Link>
-          <Link to="/about-us">About</Link>
-        </header>
+        <Header />
         <main>
           <Route path="/" component={Home} />
         </main>
