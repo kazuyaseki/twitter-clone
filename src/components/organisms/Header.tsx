@@ -5,10 +5,12 @@ import './Header.css';
 const Header = () => (
   <header className="header">
     <div className="container">
-      <Link to="/">ホーム</Link>
-      <Link to="/moments">モーメント</Link>
-      <Link to="/notifications">通知</Link>
-      <Link to="/#">メッセージ</Link>
+      <div className="links">
+        <Link to="/">ホーム</Link>
+        <Link to="/moments">モーメント</Link>
+        <Link to="/notifications">通知</Link>
+        <Link to="/#">メッセージ</Link>
+      </div>
 
       <button>ICON</button>
 
