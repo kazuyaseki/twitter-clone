@@ -14,7 +14,11 @@ const Header = () => (
 
       <button>ICON</button>
 
-      <input type="text" />
+      <input
+        className="search-input"
+        type="text"
+        placeholder="キーワード検索"
+      />
       <button>MY ICON</button>
       <button>Tweet</button>
     </div>
