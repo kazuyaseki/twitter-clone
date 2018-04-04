@@ -20,7 +20,7 @@ const Header = () => (
         placeholder="キーワード検索"
       />
       <button>MY ICON</button>
-      <button>Tweet</button>
+      <button className="tweet-button">Tweet</button>
     </div>
   </header>
 );

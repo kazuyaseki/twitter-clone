@@ -58,3 +58,9 @@
     opacity: 1;
   }
 }
+
+.tweet-button {
+  background-color: #1da1f2;
+  border: 1px solid #1da1f2;
+  color: #fff;
+}
