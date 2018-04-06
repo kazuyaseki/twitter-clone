@@ -1,12 +1,10 @@
 import * as React from 'react';
+import Sidebar from './organisms/Sidebar';
 
 const Home = (props: any) => (
   <div>
+    <Sidebar />
     <h1>Home</h1>
-    <p>Welcome home!</p>
-    <button onClick={() => props.changePage()}>
-      Go to about page via redux
-    </button>
   </div>
 );
 
