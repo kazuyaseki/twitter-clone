@@ -1,0 +1,38 @@
+.sidebar {
+  width: 290px;
+}
+
+.user-profile {
+  width: 100%;
+  border: 1px solid #e6ecf0;
+  background: #fff;
+}
+
+.profile-stats {
+  padding: 0;
+  li {
+    list-style: none;
+    display: inline-block;
+    text-align: left;
+    padding: 10px 20px;
+  }
+}
+
+.profile-stats-title {
+  color: #657786;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.02em;
+  line-height: 16px;
+  overflow: hidden;
+  transition: color 0.15s ease-in-out;
+}
+
+.profile-stats-value {
+  display: block;
+  color: #0084b4;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 3px;
+  transition: color 0.15s ease-in-out;
+}
